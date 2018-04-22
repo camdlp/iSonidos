@@ -12,7 +12,7 @@
         <VideoView
             android:id="@+id/videoView"
             android:layout_width="match_parent"
-            android:layout_height="253dp" />
+            android:layout_height="255dp" />
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
