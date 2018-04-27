@@ -12,22 +12,32 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <pl.droidsonroids.gif.GifImageView
+        <!--<pl.droidsonroids.gif.GifImageView
             android:id="@+id/gifImageView"
             android:layout_width="match_parent"
-            android:layout_height="253dp" />
+            android:layout_height="253dp" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:paddingBottom="70dp"
+            android:text="S E L E C C I O N A  SONIDOS O VÍDEOS"
+            android:textAllCaps="true"
+            android:textSize="36sp"
+            android:textStyle="bold" />
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="match_parent">
             <LinearLayout
                 android:id="@+id/botones"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
-
-            </LinearLayout>
+                android:orientation="vertical"></LinearLayout>
         </ScrollView>
+
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
